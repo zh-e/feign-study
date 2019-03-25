@@ -11,7 +11,6 @@
 
     <artifactId>service</artifactId>
 
-
     <dependencies>
 
         <dependency>
@@ -22,6 +21,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
         </dependency>
 
         <dependency>
